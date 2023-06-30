@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import React from 'react'
 import Button from './Button'
-import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle} from 'react-icons/Ai'
+import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle} from 'react-icons/ai'
 
 
 

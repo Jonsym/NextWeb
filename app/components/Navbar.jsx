@@ -1,9 +1,9 @@
 'use client'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import {AiOutlineMenu} from 'react-icons/Ai'
-import {AiOutlineCloseCircle} from 'react-icons/Ai'
-import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle} from 'react-icons/Ai'
+import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineCloseCircle} from 'react-icons/ai'
+import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle} from 'react-icons/ai'
 
 
 const Navbar = () => {
