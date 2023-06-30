@@ -1,7 +1,6 @@
 'use client'
 import Link from 'next/link'
 import React, { useState } from 'react'
-import {AiFillHome} from 'react-icons/Ai'
 import {AiOutlineMenu} from 'react-icons/Ai'
 import {AiOutlineCloseCircle} from 'react-icons/Ai'
 import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle} from 'react-icons/Ai'
