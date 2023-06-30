@@ -25,3 +25,28 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+@layer components {
+  .bnt{
+    @apply bg-purple-600 py-2 px-4 rounded-lg inline-block font-semibold
+    border border-purple-600 hover:bg-transparent hover:text-purple-600
+    transition duration-300
+  }
+}
+
+@layer base{
+  .categorieSlider .swiper-button-prev,
+  .categorieSlider .swiper-button-next {
+    @apply bg-purple-600 text-white top-[96%] md:top-[90%] w-[46px] rounded-full z-20
+  }
+  .categorieSlider .swiper-button-prev{
+    @apply left-[35%] md:left-[40%] lg:left-[45%]
+  }
+  .categorieSlider .swiper-button-next{
+    @apply right-[35%] md:right-[40%] lg:right-[45%]
+  }
+  .categorieSlider .swiper-button-prev:after
+  .categorieSlider .swiper-button-next::after{
+    @apply text-lg
+  }
+}
